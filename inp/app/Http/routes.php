@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('register', function () {
+    return view('register');
+});
+
+Route::get('bar', function () {
+    return 'Hello World';
+});
+
+Route::get('user/{id}', function($id)
+{
+    return 'User '.$id;
+});
