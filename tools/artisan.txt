@@ -1,0 +1,9 @@
+
+// 在 database/migrations 目录下创建一个表文件
+php artisan make:migration <create_xxxx_table>
+
+// 创建数据库表
+php artisan migrate
+
+// 删除数据库表
+php artisan migrate:rollback
